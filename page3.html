@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Configuration de l'environnement</title>
+        <meta name="author" content="Lisa,Ines">
+        <meta name="description" content="Comment configurer l'environnement de developpement">
+        <meta charset="utf.8"
+    </head>
+    <body>
+        <header>
+            <img src="logoCYU.jpeg" alt="logo CYU"
+                height="170"
+                width="300">
+         
+            <h1>Configuration de l'environnement de developpement</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a>
+                         <ol>
+                            <li><a href="index.html#plan">Plan du Site</a></li>
+                            <li><a href="index.html#pourquoi">Pourquoi apprendre Java ?</a></li>
+                            <li><a href="index.html#explorez">Explorez Java : Langage de programmation universel</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="Page2.html">Introduction a Java</a>
+                        <ol>
+                            <li><a href="Page2.html#Presentation Java">Présentation de Java (historique, applications principales)</a></li>
+                            <li><a href="Page2.html#avantage">Avantages de Java</a></li>
+                            <li><a href="Page2.html#pourquoi">Pourquoi choisir Java par rapport à d'autres langages ?</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="page3.html">Configuration de l'environnement de developpement</a>
+                    <ol>
+                        <li><a href="#commentbon">Comment choisir le bon environnement?</a></li>
+                        <li><a href="#etapesInstall">Etapes pour installer votre environnement de développement Java</a></li>
+                    </ol>
+                    </li>
+                    <li><a href="Page4.html">Bases de la poo
+                        <ol>
+                            <li><a href="Page4.html#poo">Qu'est-ce que la programmation orientée objet</a></li>
+                            <li><a href="Page4.html#concept">Les concepts fondamentaux de la POO</a></li>
+                            <li><a href="Page4.html#premierProg">Premier programme en POO</a></li>
+                        </ol>
+            </a></li>
+                    <li><a href="Page5.html">Applications Pratiques en Java</a>
+                        <ol>
+                            <li><a href="Page5.html#biblio">Les bibliothèques courantes :</a></li>
+                            <li><a href="Page5.html#intro">Introduction aux frameworks Java :</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+<main>
+    <section>
+        <h2 id="commentbon">Comment choisir le bon environnement?</h2>
+        <p>Pour commencer à développer en Java, il est essentiel de choisir les bons outils. Voici les étapes nécessaires pour configurer un environnement de développement Java :
+        </p>
+        <h3>Votre niveau d'expérience :</h3>
+        <p>Si vous êtes débutant, choisissez un IDE simple comme IntelliJ IDEA Community Edition.
+            <br> vous êtes expérimenté, un outil comme Eclipse peut offrir plus de flexibilité.
+            </p>
+            <h3>Les besoins specifiques</h3>
+        <p>Avez-vous besoin de fonctionnalités avancées comme le débogage ou la gestion de gros projets ?</p>
+        <h3>Les performances de votre machine :</h3>
+        <p>ertains IDE, comme IntelliJ, peuvent être lourds pour les anciennes machines.</p>
+    </section>
+
+    <section>
+        <h2 id="etapesInstall">Etapes pour installer votre environnement de développement Java</h2>
+        <h3>Installer Java JDK</h3>
+        <img src="jdk.jpg" alt="">
+        <ul>
+            <li>Vous pouvez le telecharger directement sur le site officiel d'Oracle: <a href="oracle.com"></a></li>
+            <li>Installez-le en suivant les instructions à l’écran.</li>
+            <li>Ajoutez Java à la variable PATH de votre système pour pouvoir l'utiliser en ligne de commande.</li>
+            
+        </ul>
+        <h3>Configurer les variables d'environnement</h3>
+        <p>Après l'installation de JDK, vous devez configurer les variables d'environnement pour que les commandes Java fonctionnent correctement dans le terminal :</p>
+        <ol>
+            <li>Accédez aux <b>paramètres système avancés</b>.</li>
+            <li>Ajoutez une nouvelle variable appelée <code>JAVA_HOME</code> avec le chemin d'installation du JDK.</li>
+            <li>Ajoutez <strong>%JAVA_HOME%\bin</strong> au <b>PATH</b> existant.</li>
+        </ol>
+        <p>Pour vérifier, ouvrez un terminal et tapez <code>java -version</code>.</p>
+        <img src="terminal.png" alt="resultat de test ">
+
+        <h3>Installer un IDE</h3>
+        <p>Un IDE (Environnement de Développement Intégré) est un outil essentiel pour écrire, tester et déboguer vos programmes Java. De nombreux IDE sont disponibles sur le marché, mais dans l’univers Java, les plus populaires sont :</p>
+        <ul>
+            <li><b>Eclipse IDE :</b> Très utilisé par les développeurs grâce à sa nature open-source, il offre de nombreuses fonctionnalités et plugins pour développer facilement des projets Java. Il est particulièrement adapté pour les débutants et les projets complexes.</li>
+            <li><b>IntelliJ IDEA :</b> Proposé par JetBrains, cet IDE est apprécié pour sa facilité d’utilisation, son interface intuitive et ses fonctionnalités avancées (version Community gratuite disponible).</li>
+            <li><b>Apache NetBeans :</b> Un autre IDE open-source, idéal pour le développement d’applications Java SE, EE et même HTML5.</li>
+        </ul>
+        <p>Pour commencer, nous recommandons <b>Eclipse</b>, car il est entièrement gratuit et open source. Vous pouvez le télécharger directement depuis le site officiel : 
+            <a href="https://www.eclipse.org/downloads/packages/" target="_blank">Eclipse Downloads</a>.
+        </p>
+        <p>Une fois téléchargé, suivez ces étapes pour l’installation :</p>
+        <ol>
+            <li>Lancez l’installeur d’Eclipse et sélectionnez <b>Eclipse IDE for Java Developers</b>.</li>
+            <li>Choisissez le dossier d’installation et cliquez sur <b>Install</b>.</li>
+            <li>Une fois l’installation terminée, ouvrez Eclipse et configurez le chemin vers le JDK lors du premier lancement.</li>
+        </ol>
+        <img src="eclipse.png" alt="Capture d'écran de l'installation d'Eclipse">
+        <p>Après l’installation, vous êtes prêt à commencer à créer vos premiers projets Java dans Eclipse !</p>
+
+    </section>
+</main>
+<hr>
+<footer>
+    <p>© 2025 Lisa Ouyahia, Ines Yousfi. Tous droits réservés.</p>
+    <p>Merci de visiter notre site sur la programmation Java !</p>
+    <nav>
+        <a href="index.html">1</a>
+        <a href="Page2.html">2</a>
+        <a href="Page3.html">3</a>
+        <a href="Page4.html">4</a>
+        <a href="Page5.html">5</a>
+    </nav>
+</footer>
+       
+
+    </body>
+    
+
+
+
+</html>

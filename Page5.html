@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Applications Pratiques en Java</title>
+         <meta charset="ufr.8">
+         <meta name="author" content="Lisa OUYAHIA, Ines YOUSFI">
+         <meta name="descriprion" content="Applications pratiques en Java">
+    </head>
+    
+        <header>
+            <img src="logoCYU.jpeg" alt="logo CYU"
+                height="170"
+                width="300">
+         
+            <h1>Applications pratiques en java</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a>
+                         <ol>
+                            <li><a href="index.html#plan">Plan du Site</a></li>
+                            <li><a href="index.html#pourquoi">Pourquoi apprendre Java ?</a></li>
+                            <li><a href="index.html#explorez">Explorez Java : Langage de programmation universel</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="Page2.html">Introduction a Java</a>
+                        <ol>
+                            <li><a href="Page2.html#Presentation Java">Présentation de Java (historique, applications principales)</a></li>
+                            <li><a href="Page2.html#avantage">Avantages de Java</a></li>
+                            <li><a href="Page2.html#pourquoi">Pourquoi choisir Java par rapport à d'autres langages ?</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="page3.html">Configuration de l'environnement de developpement</a>
+                        <ol>
+                            <li><a href="page3.html#commentbon">Comment choisir le bon environnement?</a></li>
+                            <li><a href="page3.html#etapesInstall">Etapes pour installer votre environnement de développement Java</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="Page4.html">Bases de la poo
+                        <ol>
+                            <li><a href="Page4.html#poo">Qu'est-ce que la programmation orientée objet</a></li>
+                            <li><a href="Page4.html#concept">Les concepts fondamentaux de la POO</a></li>
+                            <li><a href="Page4.html#premierProg">Premier programme en POO</a></li>
+                        </ol>
+            </a></li>
+                    <li><a href="Page5.html">Applications Pratiques en Java</a>
+                        <ol>
+                            <li><a href="#biblio">Les bibliothèques courantes :</a></li>
+                            <li><a href="#intro">Introduction aux frameworks Java :</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+      <main>
+        <section>
+            <h2 id="biblio">Les bibliothèques courantes :</h2>
+            <p>Java offre un large éventail de bibliothèques qui facilitent le développement d'applications. Voici quelques-unes des plus courantes :</p>
+            <h1>Tableau des Bibliothèques Java</h1>
+            <table border="1">
+                <tr>
+                    <th>Bibliothèque</th>
+                    <th>Description</th>
+                    <th>Classes Principales</th>
+                </tr>
+                <tr>
+                    <td>java.util</td>
+                    <td>Fournit des classes pour gérer des collections, des dates, et plus encore.</td>
+                    <td>ArrayList, HashMap, Date, Scanner</td>
+                </tr>
+                <tr>
+                    <td>java.io</td>
+                    <td>Permet de lire et écrire des données dans des fichiers et des flux d'entrée/sortie.</td>
+                    <td>File, BufferedReader, PrintWriter, FileReader</td>
+                </tr>
+                <tr>
+                    <td>java.nio</td>
+                    <td>Offre une gestion avancée des entrées/sorties non bloquantes et des buffers.</td>
+                    <td>FileChannel, ByteBuffer, Path, Files</td>
+                </tr>
+                <tr>
+                    <td>java.net</td>
+                    <td>Facilite la communication réseau, comme la création de sockets et l'accès à des URL.</td>
+                    <td>URL, Socket, ServerSocket, HttpURLConnection</td>
+                </tr>
+                <tr>
+                    <td>java.sql</td>
+                    <td>Fournit des outils pour interagir avec des bases de données relationnelles.</td>
+                    <td>Connection, Statement, ResultSet, PreparedStatement</td>
+                </tr>
+                <tr>
+                    <td>java.time</td>
+                    <td>Gestion moderne des dates et heures en Java, introduite avec Java 8.</td>
+                    <td>LocalDate, LocalTime, LocalDateTime, ZonedDateTime</td>
+                </tr>
+                <tr>
+                    <td>javax.swing</td>
+                    <td>Permet de créer des interfaces graphiques pour les applications de bureau.</td>
+                    <td>JFrame, JPanel, JButton, JTable</td>
+                </tr>
+                <tr>
+                    <td>java.security</td>
+                    <td>Offre des outils pour la cryptographie, l'authentification et la sécurité.</td>
+                    <td>MessageDigest, KeyPair, Signature, SecureRandom</td>
+                </tr>
+                <tr>
+                    <td>java.lang</td>
+                    <td>Contient les classes de base pour le langage Java.</td>
+                    <td>String, Math, Object, System, Thread</td>
+                </tr>
+                <tr>
+                    <td>java.math</td>
+                    <td>Fournit des classes pour les calculs mathématiques avancés, comme les grandes valeurs décimales.</td>
+                    <td>BigDecimal, BigInteger</td>
+                </tr>
+            </table>
+            
+            <h2 id="intro">Introduction aux frameworks Java :</h2>
+
+            <p><b>Swing :</b> Swing est un framework graphique Java utilisé pour créer des interfaces utilisateur pour des applications de bureau. Bien qu'il ait été remplacé par JavaFX pour les nouvelles applications, il reste populaire et largement utilisé dans de nombreux projets existants. Swing permet de créer des interfaces graphiques en utilisant une large gamme de composants, tels que des boutons, des champs de texte, des menus, et des boîtes de dialogue. Les composants Swing sont organisés à l'aide de conteneurs, tels que <code>JPanel</code> pour regrouper les éléments, et <code>JScrollPane</code> pour gérer les zones défilantes. Un des avantages de Swing est sa compatibilité avec le modèle MVC (Model-View-Controller), ce qui permet de séparer la logique métier de l'interface utilisateur. De plus, Swing permet une personnalisation avancée des interfaces via l'API <code>LookAndFeel</code>, ainsi que des options pour rendre les applications accessibles aux personnes handicapées. Swing est un choix solide pour des applications de bureau simples et flexibles, mais pour des interfaces plus modernes et dynamiques, JavaFX est recommandé.</p>
+            
+            <img src="java swing.png" alt="logo Java Swing" >
+            
+            <p><b>JavaFX :</b> JavaFX est un framework moderne qui permet de créer des interfaces graphiques riches et interactives en Java. Il est conçu pour remplacer Swing dans les applications Java modernes, en offrant des fonctionnalités graphiques avancées, telles que des animations, des effets visuels et une intégration multimédia. JavaFX repose sur une structure hiérarchique où la fenêtre principale est représentée par un objet <code>Stage</code> et la scène est un conteneur <code>Scene</code> pour les éléments graphiques. JavaFX utilise également un langage basé sur XML appelé FXML pour définir les interfaces graphiques, séparant ainsi le code Java de la description de l'interface utilisateur. Cela rend le code plus lisible et plus facile à maintenir. JavaFX permet également d'appliquer des styles CSS aux composants de l'interface pour une personnalisation avancée. Avec JavaFX, il est possible de créer des applications interactives et fluides, parfaites pour des applications de bureau modernes ou des applications nécessitant des interfaces riches et dynamiques.</p>
+            
+            <img src="JavaFX_Logo.png" alt="logo JavaFX" >
+            
+            
+        
+
+        
+        </section>
+      </main>
+        <hr>
+        <footer>
+            <p>© 2025 Lisa Ouyahia, Ines Yousfi. Tous droits réservés.</p>
+            <p>Merci de visiter notre site sur la programmation Java !</p>
+            <nav>
+                <a href="index.html">1</a>
+                <a href="Page2.html">2</a>
+                <a href="Page3.html">3</a>
+                <a href="Page4.html">4</a>
+                <a href="Page5.html">5</a>
+            </nav>
+        </footer>
+    </body>
+    

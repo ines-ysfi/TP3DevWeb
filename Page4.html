@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Configuration de l'environnement</title>
+        <meta name="author" content="Lisa,Ines">
+        <meta name="description" content="Comment configurer l'environnement de developpement">
+        <meta charset="utf.8">
+    </head>
+    <body>
+        <header>
+            <img src="logoCYU.jpeg" alt="logo CYU"
+                height="170"
+                width="300">
+         
+            <h1>Les bases de la programmation orientée objet en java </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a>
+                         <ol>
+                            <li><a href="index.html#plan">Plan du Site</a></li>
+                            <li><a href="index.html#pourquoi">Pourquoi apprendre Java ?</a></li>
+                            <li><a href="index.html#explorez">Explorez Java : Langage de programmation universel</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="Page2.html">Introduction a Java</a>
+                        <ol>
+                            <li><a href="Page2.html#Presentation Java">Présentation de Java (historique, applications principales)</a></li>
+                            <li><a href="Page2.html#avantage">Avantages de Java</a></li>
+                            <li><a href="Page2.html#pourquoi">Pourquoi choisir Java par rapport à d'autres langages ?</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="page3.html">Configuration de l'environnement de developpement</a>
+                        <ol>
+                            <li><a href="page3.html#commentbon">Comment choisir le bon environnement?</a></li>
+                            <li><a href="page3.html#etapesInstall">Etapes pour installer votre environnement de développement Java</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="Page4.html">Bases de la poo
+                        <ol><li><a href="#poo">Qu'est-ce que la programmation orientée objet</a></li>
+                        <li><a href="#concept">Les concepts fondamentaux de la POO</a></li>
+                        <li><a href="#premierProg">Premier programme en POO</a></li>
+                        </ol>
+            </a></li>
+                    <li><a href="Page5.html">Applications Pratiques en Java</a>
+                        <ol>
+                            <li><a href="Page5.html#biblio">Les bibliothèques courantes :</a></li>
+                            <li><a href="Page5.html#intro">Introduction aux frameworks Java :</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+
+		<main>
+                <section>
+                    <h2 id="poo">1.Qu'est-ce que la programmation orientée objet ?</h2>
+                    <p>La programmation orientée objet (POO) est une méthode de conception et de développement de logiciels qui se base sur l’utilisation d’objets. Chaque objet est une instance d’une classe, qui est comme un modèle ou un plan de fabrication. Les objets peuvent contenir :
+
+        Des propriétés (ou attributs) qui définissent leurs caractéristiques.
+        Des méthodes (ou fonctions) qui définissent leur comportement.
+        L’idée principale est de structurer ton programme autour des objets qui interagissent entre eux, ce qui rend ton code plus clair, réutilisable et facile à maintenir.</p>
+                </section>
+
+
+                <section>
+                    <h2 id="concept">2.Les concepts fondamentaux de la POO</h2>
+
+                    <img src="Concept.png" alt="Concept basic"/>
+                    <h3>2.1Classe et objet</h3>
+
+                    <ul>
+                        <li><b>Classe</b>: Une classe est comme un modèle qui définit un type d'objet. Elle spécifie ce qu’un objet de ce type peut contenir comme propriétés et quelles actions il peut accomplir via ses méthodes.</li>
+                        <li><b>Objet</b>: Un objet est une instance d’une classe. Si la classe est un plan, l’objet est le produit final. Par exemple, si tu as une classe Chien, un objet pourrait être un chien spécifique appelé "Rex".</li>
+
+                    </ul>
+                    <h3>2.2/ Encapsulation</h3>
+                    <p>L'encapsulation est le mécanisme qui permet de cacher l'état interne d'un objet et d'exposer uniquement ce qui est nécessaire via des méthodes publiques. Cela protège les données et permet de les modifier uniquement par des méthodes appropriées.</p>
+
+                    <h3>2.3/ Héritage</h3>
+                    <p>L’héritage permet à une classe de « hériter » des propriétés et méthodes d’une autre classe. Cela permet de créer des classes plus spécifiques à partir de classes plus générales. L’héritage favorise la réutilisation du code et simplifie la gestion des différentes catégories d’objets.</p>
+
+
+
+                    <h3>2.4/ Polymorphisme</h3>
+                    <p>Le polymorphisme permet de traiter les objets de manière générique. Par exemple, une méthode peut accepter des objets de types différents (qui héritent d'une même classe de base), mais agir différemment selon le type réel de l'objet.</p>
+
+                    <h3>2.5/ Abstraction </h3>
+                    <p>L’abstraction consiste à masquer les détails complexes d’un objet et à ne montrer que ce qui est nécessaire. Cela permet de simplifier l’utilisation des objets sans s'occuper de leurs détails internes.</p>
+
+
+                </section>
+
+                <section>
+                <h2 id="premierProg">3.Premier programme en POO : "Hello, World!"</h2>
+                <p>En Java, même le plus simple des programmes peut utiliser les concepts de la programmation orientée objet (POO). Voici un exemple de base avec une classe, un objet et une méthode pour afficher "Hello, World!" à l'écran.</p>
+                <figure>
+                    <img src="codeJ.png" alt="code simple java "/>
+                    <figcaption>Code en Java d'une Classe nommée HelloWorld</figcaption>
+                </figure>
+                
+
+                <h3>Explication du code</h3>
+                <h4>Classe HelloWorld:</h4>
+                <p>En Java, tout code doit être contenu dans une classe. Ici, la classe s'appelle HelloWorld.</p>
+
+                <h4>Méthode direBonjour() :</h4>
+                <p>À l'intérieur de la classe, on a une méthode nommée direBonjour() qui affiche le texte "Hello, World!" sur l'écran lorsque nous l'appelons.</p>
+
+                <h4>Méthode main() :</h4>
+                <p>La méthode main() est le point d'entrée du programme en Java. C'est ici que le programme commence à s'exécuter.</p>
+
+                <h4>Création d'un objet monObjet :</h4>
+                <p>Dans la méthode main(), nous créons un objet <code>monObjet</code> de la classe HelloWorld en utilisant new HelloWorld(). Ensuite, nous appelons la méthode direBonjour() sur cet objet pour afficher "Hello, World!".</p>
+
+                </section>
+		</main>
+        <hr>
+
+        <footer>
+            <p>© 2025 Lisa Ouyahia, Ines Yousfi. Tous droits réservés.</p>
+            <p>Merci de visiter notre site sur la programmation Java !</p>
+            <nav>
+                <a href="index.html">1</a>
+                <a href="Page2.html">2</a>
+                <a href="Page3.html">3</a>
+                <a href="Page4.html">4</a>
+                <a href="Page5.html">5</a>
+            </nav>
+        </footer>
+
+    </body>
+   
+
+</html>
